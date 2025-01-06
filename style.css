@@ -1,0 +1,245 @@
+body{
+    margin:  0;
+    font-family: Arial;
+}
+
+header {
+    background-color: #E3C515;
+    height: 80px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    flex-grow: 1; 
+    justify-content: space-evenly;
+    margin-left: 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000; 
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.join {
+    border: 2px solid black;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 42px;
+}
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 42px;
+}
+
+.best button {
+    margin-left: 70px;
+    background-color: #E3C515;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    border-radius: 42px;
+    margin-bottom: 22px;
+    font-size: 42px;
+}
+
+.best {
+    width: 600px;
+    margin-top: 50px;
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 42px;
+}
+
+.advantages button {
+    margin-right: 70px;
+    background-color: #E3C515;
+    width: 350px;
+    height: 50px;
+    padding-top: px;
+    text-align: center;
+    border-radius: 42px;
+    margin-bottom: 22px;
+    font-size: 22px;
+}
+
+.advantages {
+    width: 600px;
+    transform: translateY(-40px);
+}
+
+.text2 p{
+    transform: translateX(-170px);
+}
+
+main h1 {
+    text-align: center;
+}
+
+.teachers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.teacher {
+    background-color: #D9D9D9;
+    width: 150px;
+    padding: 5px 30px 0px 30px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.teacher:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.teacher img {
+    width: 150px;
+}
+
+.exp {
+   font-size: 15px;
+   transition: 0.42s;
+}
+
+.exp:hover {
+    font-size: 18px;
+}
+
+.pinky {
+    transition: 1s;
+}
+
+.pinky:hover {
+    color: #e72bf8;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.sponsor {
+    background-color: #D9D9D9;
+    width: 150px;
+    padding: 5px 30px 0px 30px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.sponsor:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.sponsor img {
+    width: 150px;
+}
+
+.sponsor p::before {
+    content: " ";
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background: url("https://i.postimg.cc/4ym4svcH/crown.png") no-repeat;
+    background-size: contain;
+}
+
+.top {
+    margin-top: 42px;
+}
+
+footer {
+    background-color: #E3C515;
+    height: 355px;
+    padding-top: 1px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+
+.cool {
+    float: right;
+    transform: translateY(58px);
+    font-size: 15px;
+    font-weight: 100px;
+}
+
+
+.nav img {
+    width: 50px;
+}
+
+.nav {
+    text-align: center;
+}
+
+footer h1, h2 {
+    text-align: center;
+}
+
+footer p {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.text3 {
+    color: #616161;
+}
+
+aside {
+    background-color: royalblue;
+    position: fixed;
+    width: 200px;
+    top: 100px;
+    border-top-right-radius: 42px;
+    border-bottom-right-radius: 42px;
+    text-align: center;
+    left: -158px;
+    transition: 1s;
+}
+
+aside:hover {
+    left: 0px;
+    transition: 1s;
+}
+
+aside p {
+    color: #E3C515;
+}
+
+aside img {
+    width: 100px;
+    border-radius: 10px;
+}
